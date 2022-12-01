@@ -45,12 +45,29 @@ body {
   margin-left: -25px;
   list-style: none;
 }
+@media screen and (max-width: 576px) {
+  .visit-ul {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
 .img {
   height: 180px;
-  width: 365px;
+  width: 100%;
 }
+
 .c-li {
   margin: 10px;
+  width: 230px;
+}
+@media screen and (max-width: 576px) {
+  .c-li {
+    width: 320px;
+    margin-left: -40px;
+  }
 }
 .remove-div {
   display: flex;
