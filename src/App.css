@@ -84,6 +84,11 @@ body {
   outline: none;
   cursor: pointer;
 }
+@media screen and (max-width: 576px) {
+  .no-countries {
+    font-size: 20px;
+  }
+}
 .no-countries {
   display: flex;
   flex-direction: column;
